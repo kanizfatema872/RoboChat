@@ -1,0 +1,60 @@
+{"intents": [
+{"tag": "greetings", 
+ "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going"],
+ "responses": ["hello", "hey", "what can i do for you?"]
+ },
+ {"tag": "goodbye",
+  "patterns": ["cya", "goodbye", "see you later", "bye", "have a good day"],
+  "responses": ["sad to see you go:(", "talk to you later", "goodbye"]
+  },
+  {"tag": "sad",
+   "patterns": [" I am feeling sad"],
+   "responses": ["Listen music", " go out home taking refreshment"]
+   },
+   {"tag": "scared",
+    "patterns": ["I am feeling scared"],
+    "responses": ["visualize a happy place ", "breathe through panic"]
+    },
+    {"tag":"bore",
+     "patterns":["I am feeling bored"],
+     "responses": ["play with children","watch movie"]
+     },
+     {"tag": "stress",
+      "patterns": [" I am feeling stressed"],
+      "responses": [" you must take deep breath", "manage social media time"]
+      },
+      {"tag": "Covid19 and mental disorders",
+   "patterns": ["how can mental disorders and substance abuse be prevented during covid19 pendemic"],
+   "responses":["Messages are a great media to prevent mental disorder and also broadcast on television and radio to raise awareness ","spending limit time on social media", "you must engage in creative working and do initiative method on making progress, thus prevent mental disorders"]
+ },
+ { "tag": "mental disorder",
+   "patterns": ["What is mental illness"],
+   "responses": ["mental illness refers to a wide range of mental health conditions that affect your mood, thinking and behavior"]
+ },
+ {"tag": "types",
+  "patterns": ["example of mental illness/disorders"],
+  "responses": ["Anxiety disorders", "Depression", "Schizophrenia"]
+ },
+ {"tag": "symptoms and signs",
+  "patterns": ["what are the sign and symptoms of mental illness"],
+  "responses": ["feeling sad or down",
+                " confused thinking", 
+                "reduced ability to concentrate",
+                "excessive fears or worries",
+                 "extreme mood changes", 
+                 "Inability to cope with daily problems or stress"]
+ },
+ {"tag": "risk factor",
+  "patterns": ["what are the risk factor of mental illness"],
+  "responses": ["mental illness in a blood relative", 
+                "brain demage", 
+                "traumatic experiences", 
+                "use of alcohol"]
+ },
+ {"tag": "link",
+  "patterns":["https://www.wolframalpha.com/examples/mathematics/"],
+"responses": ["answer all quiry"]
+}
+  
+
+]}
